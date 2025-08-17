@@ -15,3 +15,8 @@ def func(**kwargs):
     print(kwargs)
 
 func(a=1, b=2, c=3)  # {'a': 1, 'b': 2, 'c': 3}     
+
+#Inline if (ternary operator)
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
